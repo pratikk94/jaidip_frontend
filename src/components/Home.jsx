@@ -1,4 +1,7 @@
-import HeroSection from "./Home/HeroSection";
+import FeatureSection from "./Home/Features/Features";
+import HeroSection from "./Home/HeroSection/HeroSection";
 export default function Home(){
-    return <HeroSection/>
+    return <><HeroSection/>
+    <FeatureSection/>
+    </>
 }
