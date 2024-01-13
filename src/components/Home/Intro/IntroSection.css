@@ -1,0 +1,67 @@
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #ffffff;
+    border-radius: 1rem;
+    padding: 4rem;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin-left: 8%;
+    margin-top: 1%;
+    max-width: 77%;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  }
+  .intro-text {
+    min-width: 60%;
+  }
+  .intro-text h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #000;
+    text-align: left;
+  }
+  
+  .intro-text p {
+    font-size: 1.6rem;
+    color: #333;
+    line-height: 1.5;
+    margin: 1.5rem 0;
+    text-align: left;
+  }
+  
+  .intro-button {
+    background-color: #0052cc;
+    color: #ffffff;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    margin-left: -80%;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 118, 255, 0.3);
+  }
+  
+  .intro-button:hover {
+    background-color: #003e99;
+  }
+  
+.intro-graphics img{
+    /* Placeholder for your graphics styling */
+    max-width: 140%;
+    height: auto;
+  } 
+  
+  /* Responsive design adjustments */
+  @media (max-width: 768px) {
+    .intro-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .intro-graphics {
+      margin-top: 2rem;
+    }
+  }
+  
