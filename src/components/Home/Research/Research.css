@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  max-width: 80%;
+  margin: auto;
+  margin-top: 160px;
+}
+
+.search-graphics img {
+  /* Placeholder for the graphic styling */
+  width: 100%;
+}
+
+.search-content {
+  width: 400%;
+  padding-left: 15%;
+}
+
+.search-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-tag {
+  font-size: 14px;
+  color: #888;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: start;
+}
+
+.search-content h1 {
+  font-size: 3rem;
+  color: #000;
+  font-weight: 700;
+  margin: 10px 0;
+  text-align: start;
+}
+
+.search-content p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: start;
+}
+
+.search-button {
+  background-color: #0052cc;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0, 118, 255, 0.3);
+}
+
+.search-button:hover {
+  background-color: #003e99;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 992px) {
+  .search-container {
+    flex-direction: column;
+    text-align: center;
+ 
+    .search-content, .search-graphics {
+        width: 100%;
+        padding-left: 0;
+      }
+    
+      .search-graphics {
+        margin-bottom: 20px;
+      }
+    }
+}
