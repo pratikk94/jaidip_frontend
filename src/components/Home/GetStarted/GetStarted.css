@@ -1,0 +1,70 @@
+/* GetStarted.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.get-started-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  max-width: 80%;
+  margin-left: 7%;
+  margin-top: 2%;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);/* Simple shadow for depth */
+  font-family: 'Inter', sans-serif;
+}
+
+.gs-text-content {
+  min-width: 640px; /* Adjust based on your design */
+}
+
+h1 {
+  font-size: 2.5rem; /* Large text for the heading */
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  color: #666; /* Adjust the color to match your design */
+  margin-bottom: 20px;
+}
+
+.signup-button {
+  background-color: #2F80ED; /* Scout's brand color for the button */
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #256ABF;
+}
+
+.gs-image-placeholder img{
+    width: 40%;
+    height: auto; /* Assuming a height for the placeholder */
+    border-radius: 20px;
+}
+/* Responsive design adjustments */
+@media (max-width: 1024px) {
+  .get-started-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image-placeholder, .text-content {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .text-content {
+    order: 2; /* Text below the image */
+  }
+}
