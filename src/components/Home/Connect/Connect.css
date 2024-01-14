@@ -1,0 +1,92 @@
+/* RightSection.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  max-width: 80%;
+  margin-left: 7%;
+  margin-top: 2%;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  font-family: 'Inter', sans-serif;
+  background-color: #FFFFFF; /* Assuming a white background */
+}
+
+.connect_image-placeholder {
+  width: 50%;
+  height: 300px; /* Placeholder height, adjust as needed */
+  border-radius: 20px;
+  /* You can add a box-shadow or other styles to match the design */
+}
+
+
+.connect_image-placeholder img{
+    width: 60%;
+    height: auto; /* Assuming a height for the placeholder */
+    border-radius: 20px;
+}
+
+.text-content {
+  width: 50%;
+  padding-left: 50px; /* Adjust the padding as needed */
+}
+
+.header {
+  font-size: 0.85rem;
+  color: #888;
+  letter-spacing: 1px;
+  margin-bottom: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3rem; /* Large header text */
+  color: #000000;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 1.6rem;
+  color: #333333;
+  margin-bottom: 32px;
+  line-height: 1.5;
+}
+
+.try-now-button {
+  background-color: #2F80ED;
+  color: #FFFFFF;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.try-now-button:hover {
+  background-color: #256ABF;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image-placeholder, .text-content {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .text-content {
+    padding-left: 0;
+  }
+}

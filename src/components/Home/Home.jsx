@@ -1,3 +1,4 @@
+import Connect from "./Connect/Connect";
 import Discover from "./Discover/Discover";
 import FeatureSection from "./Features/Features";
 import HeroSection from "./HeroSection/HeroSection";
@@ -10,6 +11,6 @@ export default function Home(){
         <IntroSection />
         <Research/>
         <Discover/>
-        {/* <Connect/> */}
+        <Connect/>
     </div>
 }
