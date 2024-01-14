@@ -1,0 +1,91 @@
+/* Page.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  max-width: 80%;
+  margin-left: 7%;
+  margin-top: 2%;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  font-family: 'Inter', sans-serif;
+  background-color: #FFF; /* Assuming a white background */
+}
+
+.content {
+  max-width: 600px; /* Adjusted to fit the text content */
+}
+
+.header {
+  font-size: 0.85rem;
+  color: #888;
+  letter-spacing: 1px;
+  margin-bottom: 24px;
+  font-weight: 600;
+  text-align: start;
+}
+
+h1 {
+  font-size: 3rem; /* Adjusted for large header text */
+  color: #000000;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  text-align: start;
+}
+
+p {
+  font-size: 1.6rem;
+  color: #333333;
+  margin-bottom: 32px;
+  line-height: 1.5;
+  text-align: start;
+}
+
+.try-now-button {
+  background-color: #2F80ED;
+  color: #FFFFFF;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.try-now-button:hover {
+  background-color: #256ABF;
+}
+
+.image-placeholder {
+  width: 40%;
+  height: 300px; /* Assuming a height for the placeholder */
+  border-radius: 20px;
+}
+
+.image-placeholder img{
+    width: 60%;
+    height: auto; /* Assuming a height for the placeholder */
+    border-radius: 20px;
+  }
+
+/* Responsive design adjustments */
+@media (max-width: 1024px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .image-placeholder {
+    width: 80%;
+    height: 200px;
+    margin-top: 32px;
+  }
+
+  .content {
+    max-width: 100%;
+  }
+}
