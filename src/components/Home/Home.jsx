@@ -1,3 +1,4 @@
+import Footer from "../Footer/Footer";
 import Connect from "./Connect/Connect";
 import Discover from "./Discover/Discover";
 import FeatureSection from "./Features/Features";
@@ -16,5 +17,6 @@ export default function Home(){
         <Connect/>
         <Testimonials/>
         <GetStarted/>
+        <Footer/>
     </div>
 }

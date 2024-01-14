@@ -1,0 +1,63 @@
+/* NavBar.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff; /* Adjust the background color as needed */
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #000; /* Adjust the color as needed */
+  text-decoration: none;
+}
+
+.navbar-logo {
+  margin-right: 10px; /* Adjust the margin as needed */
+  width: 40px; /* Adjust the logo size as needed */
+  height: auto;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-link {
+  color: #000; /* Adjust the color as needed */
+  text-decoration: none;
+  margin-left: 20px; /* Adjust the margin as needed */
+  font-size: 1rem; /* Adjust the font size as needed */
+  transition: color 0.3s;
+}
+
+.navbar-link:hover {
+  color: #0056b3; /* Adjust hover color as needed */
+}
+
+.navbar-auth {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-login {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.signup-button {
+  background-color: #ffc107; /* Scout's brand color for sign up button */
+  color: #000; /* Adjust text color as needed */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.signup-button:hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+}
