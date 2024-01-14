@@ -1,0 +1,65 @@
+/* FAQSection.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.faq-section {
+  font-family: 'Inter', sans-serif;
+  max-width: 800px; /* Or the max width based on your layout */
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.faq-header h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.faq-questions {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.faq-question {
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 10px 0;
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #333;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-question::after {
+  content: '▼'; /* Placeholder for a down arrow icon */
+  font-size: 1rem;
+  color: #333;
+  padding-right: 20px; /* Aligns the arrow to the right */
+}
+
+/* Add :hover and :focus styles for interactive elements */
+.faq-question:hover,
+.faq-question:focus {
+  background-color: #f8f8f8;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .faq-questions {
+    text-align: center;
+  }
+
+  .faq-question {
+    justify-content: center;
+  }
+
+  .faq-question::after {
+    position: absolute;
+    right: 20px;
+  }
+}

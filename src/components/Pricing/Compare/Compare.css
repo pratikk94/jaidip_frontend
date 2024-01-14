@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.feature-comparison {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  padding: 40px;
+  background-color: #fff; /* or any color you prefer */
+}
+
+.feature-comparison h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.plan {
+  background: #f8f8f8;
+  border-radius: 10px;
+  width: 300px; /* or any width you prefer */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.plan h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.plan ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.plan li {
+  font-size
+: 1rem;
+color: #333;
+margin-bottom: 10px;
+padding-left: 1.5rem;
+text-align: left;
+position: relative;
+}
+
+.plan li::before {
+content: '✔';
+color: #4CAF50; /* Or the color that matches your checkmark */
+position: absolute;
+left: 0;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 1024px) {
+.plans {
+flex-direction: column;
+align-items: center;
+}
+
+.plan {
+width: 80%; /* Full width cards on mobile /
+max-width: 350px; / Maximum width for larger mobile devices */
+margin-bottom: 20px;
+}
+}
