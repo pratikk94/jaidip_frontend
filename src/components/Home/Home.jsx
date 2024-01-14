@@ -17,6 +17,5 @@ export default function Home(){
         <Connect/>
         <Testimonials/>
         <GetStarted/>
-        <Footer/>
     </div>
 }
