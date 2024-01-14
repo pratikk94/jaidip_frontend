@@ -1,0 +1,72 @@
+/* Testimonials.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.testimonials-container {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f8f8; /* Assuming a light grey background */
+  padding: 50px;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 50px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 300px; /* Adjust the width as necessary */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.rating {
+  /* Placeholder for the rating stars */
+  margin-bottom: 15px;
+}
+
+.author {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.role {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* You might need to add media queries for responsiveness */
+@media (max-width: 1024px) {
+  .cards-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card {
+    width: auto;
+  }
+}
