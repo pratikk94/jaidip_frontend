@@ -1,21 +1,23 @@
 /* GetStarted.css */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 
 .get-started-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px;
-  max-width: 80%;
-  margin-left: 7%;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 56%;
+  margin-left: 19%;
   margin-top: 2%;
   border-radius: 20px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.2);/* Simple shadow for depth */
-  font-family: 'Inter', sans-serif;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Simple shadow for depth */
+  font-family: "Inter", sans-serif;
 }
 
 .gs-text-content {
-  min-width: 640px; /* Adjust based on your design */
+  min-width: 400px; /* Adjust based on your design */
 }
 
 h1 {
@@ -32,7 +34,7 @@ p {
 }
 
 .signup-button {
-  background-color: #2F80ED; /* Scout's brand color for the button */
+  background-color: #2f80ed; /* Scout's brand color for the button */
   color: #fff;
   border: none;
   padding: 12px 24px;
@@ -44,13 +46,13 @@ p {
 }
 
 .signup-button:hover {
-  background-color: #256ABF;
+  background-color: #256abf;
 }
 
-.gs-image-placeholder img{
-    width: 40%;
-    height: auto; /* Assuming a height for the placeholder */
-    border-radius: 20px;
+.gs-image-placeholder img {
+  width: 120%;
+  height: auto; /* Assuming a height for the placeholder */
+  border-radius: 20px;
 }
 /* Responsive design adjustments */
 @media (max-width: 1024px) {
@@ -59,7 +61,8 @@ p {
     text-align: center;
   }
 
-  .image-placeholder, .text-content {
+  .image-placeholder,
+  .text-content {
     width: 80%;
     margin-bottom: 20px;
   }
